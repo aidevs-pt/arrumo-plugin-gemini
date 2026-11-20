@@ -17,6 +17,14 @@
       "kind": "secret",
       "scope": "workspace",
       "required": true
+    },
+    {
+      "id": "image-model",
+      "label": "Image model",
+      "description": "Gemini model used for thumbnails and images. Leave empty to use the plugin's current default.",
+      "kind": "string",
+      "scope": "workspace",
+      "required": false
     }
   ]
 }

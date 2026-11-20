@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "pluginId": "gemini",
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+  "credentialSetting": "api-key",
+  "credentialHeader": "x-goog-api-key",
+  "credentialPrefix": "",
+  "model": {
+    "default": "gemini-2.5-flash-image",
+    "setting": "image-model"
+  },
+  "aspectRatios": {
+    "16:9": "16:9",
+    "9:16": "9:16",
+    "1:1": "1:1",
+    "4:3": "4:3",
+    "3:4": "3:4"
+  },
+  "request": {
+    "contents": [{"parts": [{"text": "{prompt}"}]}],
+    "generationConfig": {
+      "responseModalities": ["IMAGE"],
+      "imageConfig": {"aspectRatio": "{aspectRatio}"}
+    }
+  },
+  "response": {
+    "items": "/candidates/0/content/parts",
+    "image": "/inlineData/data"
+  },
+  "maxImageBytes": 20971520
+}
