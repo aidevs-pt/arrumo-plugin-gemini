@@ -4,13 +4,11 @@ The default Gemini adapter for image generation.
 
 ## Icon and trademarks
 
-`icon.svg` uses the official Gemini mark, only to identify the service this
-plugin connects to. Gemini, Google and their logos are trademarks of Google LLC. This plugin is not affiliated with or endorsed by
-Google LLC, and the mark is not covered by this repository's license.
-
-Copyright © 2026 DEVS AI Unipessoal LDA. Licensed under the [GNU Affero General Public License v3.0](LICENSE).
-
-For custom AI solutions for your company, visit [DEVS AI](https://aidevs.pt).
+`icon.svg` is a generic symbol drawn for Arrumo (a picture frame, for image generation), covered by this repository's
+license. It is not the provider's logo: the provider has not published permission for its
+logo to appear in another app's interface, so the plugin does not use it. The name is used
+only to say which service the plugin connects to; this plugin is not affiliated with or
+endorsed by the provider.
 
 ## Images
 
