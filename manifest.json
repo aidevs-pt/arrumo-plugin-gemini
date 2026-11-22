@@ -38,5 +38,46 @@
       "es": "Gemini crea miniaturas e imágenes a partir de tus referencias de estilo. Ponlo primero en Servicios y claves si prefieres su estilo.",
       "pt": "O Gemini cria miniaturas e imagens a partir das tuas referências de estilo. Põe-no em primeiro em Serviços e chaves se preferires o seu estilo."
     }
+  },
+  "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#3b5bdb\"/><rect x=\"8\" y=\"9\" width=\"16\" height=\"14\" rx=\"2.5\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M9 21l5-5 3 3 2-2 4 4\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"20\" cy=\"13\" r=\"1.6\" fill=\"#ffffff\"/></svg>",
+  "translations": {
+    "es": {
+      "description": "Un segundo modelo de imágenes para miniaturas y referencias de estilo.",
+      "capabilities": {
+        "image-generation": {
+          "name": "Generación de imágenes",
+          "description": "Genera miniaturas e imágenes a partir de descripciones."
+        }
+      },
+      "settings": {
+        "api-key": {
+          "label": "Clave de API de Gemini",
+          "description": "Se usa para generar imágenes. Se guarda en el almacén del sistema; los agentes pueden usarla a través de Arrumo, pero nunca leerla."
+        },
+        "image-model": {
+          "label": "Modelo de imagen",
+          "description": "El modelo de Gemini para miniaturas e imágenes. Déjalo vacío para usar el predeterminado actual del complemento."
+        }
+      }
+    },
+    "pt": {
+      "description": "Um segundo modelo de imagens para miniaturas e referências de estilo.",
+      "capabilities": {
+        "image-generation": {
+          "name": "Geração de imagens",
+          "description": "Gera miniaturas e imagens a partir de descrições."
+        }
+      },
+      "settings": {
+        "api-key": {
+          "label": "Chave de API do Gemini",
+          "description": "Usada para gerar imagens. Fica guardada no cofre do sistema; os agentes podem usá-la através do Arrumo, mas nunca lê-la."
+        },
+        "image-model": {
+          "label": "Modelo de imagem",
+          "description": "O modelo Gemini para miniaturas e imagens. Deixa vazio para usar o predefinido atual do plugin."
+        }
+      }
+    }
   }
 }
