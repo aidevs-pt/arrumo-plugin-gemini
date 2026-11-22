@@ -4,11 +4,7 @@ The default Gemini adapter for image generation.
 
 ## Icon and trademarks
 
-`icon.svg` is a generic symbol drawn for Arrumo (a picture frame, for image generation), covered by this repository's
-license. It is not the provider's logo: the provider has not published permission for its
-logo to appear in another app's interface, so the plugin does not use it. The name is used
-only to say which service the plugin connects to; this plugin is not affiliated with or
-endorsed by the provider.
+`icon.svg` shows Google LLC's logo so creators recognise the service this plugin connects to. Gemini, Google and their logos are trademarks of Google LLC; the manifest's `iconNotice` says so wherever Arrumo shows the icon. The logo is not covered by this repository's license, and this plugin is not affiliated with or endorsed by Google LLC. The SVG is a square without rounded corners; Arrumo rounds it. If Google LLC asks, replace the logo with a generic symbol and remove `iconNotice`.
 
 ## Images
 
