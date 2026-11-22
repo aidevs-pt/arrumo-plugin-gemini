@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 8,
   "id": "gemini",
   "name": "Gemini",
   "description": "A second image model for thumbnails and style references.",
@@ -26,5 +26,17 @@
       "scope": "workspace",
       "required": false
     }
-  ]
+  ],
+  "introduction": {
+    "headline": {
+      "en": "A second eye for thumbnails",
+      "es": "Otra mirada para las miniaturas",
+      "pt": "Outro olhar para as miniaturas"
+    },
+    "body": {
+      "en": "Gemini makes thumbnails and images from your style references. Put it first in Services and keys when you prefer its look.",
+      "es": "Gemini crea miniaturas e imágenes a partir de tus referencias de estilo. Ponlo primero en Servicios y claves si prefieres su estilo.",
+      "pt": "O Gemini cria miniaturas e imagens a partir das tuas referências de estilo. Põe-no em primeiro em Serviços e chaves se preferires o seu estilo."
+    }
+  }
 }
