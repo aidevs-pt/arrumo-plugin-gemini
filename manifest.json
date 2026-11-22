@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 10,
   "id": "gemini",
   "name": "Gemini",
   "description": "A second image model for thumbnails and style references.",
@@ -16,7 +16,8 @@
       "description": "Used for image generation. Stored in the system vault; agents can use it through Arrumo but never read it.",
       "kind": "secret",
       "scope": "workspace",
-      "required": true
+      "required": true,
+      "helpUrl": "https://aistudio.google.com/apikey"
     },
     {
       "id": "image-model",
