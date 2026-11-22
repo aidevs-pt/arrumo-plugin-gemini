@@ -2,6 +2,12 @@
 
 The default Gemini adapter for image generation.
 
+## Icon and trademarks
+
+`icon.svg` uses the official Gemini mark, only to identify the service this
+plugin connects to. Gemini, Google and their logos are trademarks of Google LLC. This plugin is not affiliated with or endorsed by
+Google LLC, and the mark is not covered by this repository's license.
+
 Copyright © 2026 DEVS AI Unipessoal LDA. Licensed under the [GNU Affero General Public License v3.0](LICENSE).
 
 For custom AI solutions for your company, visit [DEVS AI](https://aidevs.pt).
