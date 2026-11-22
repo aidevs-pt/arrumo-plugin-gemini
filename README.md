@@ -8,7 +8,7 @@ The default Gemini adapter for image generation.
 
 ## Images
 
-[English](docs/en/images.md) · [Español](docs/es/images.md) · [Português](docs/pt/images.md)
+[English](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/en/plugins/gemini/images.md) · [Español](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/es/plugins/gemini/images.md) · [Português](https://github.com/aidevs-pt/arrumo-docs/blob/main/content/docs/pt/plugins/gemini/images.md)
 
 `image-generation.json` declares the Gemini `generateContent` endpoint with image output and an aspect ratio, the default model and the **Image model** setting that overrides it. See the [Gemini image generation guide](https://ai.google.dev/gemini-api/docs/image-generation).
 
