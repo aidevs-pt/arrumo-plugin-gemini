@@ -17,15 +17,38 @@
     "3:4": "3:4"
   },
   "request": {
-    "contents": [{"parts": [{"text": "{prompt}"}]}],
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "{prompt}"
+          }
+        ]
+      }
+    ],
     "generationConfig": {
-      "responseModalities": ["IMAGE"],
-      "imageConfig": {"aspectRatio": "{aspectRatio}"}
+      "responseModalities": [
+        "IMAGE"
+      ],
+      "imageConfig": {
+        "aspectRatio": "{aspectRatio}"
+      }
     }
   },
   "response": {
     "items": "/candidates/0/content/parts",
     "image": "/inlineData/data"
   },
-  "maxImageBytes": 20971520
+  "maxImageBytes": 20971520,
+  "references": {
+    "encoding": "json",
+    "pointer": "/contents/0/parts",
+    "item": {
+      "inlineData": {
+        "mimeType": "{mimeType}",
+        "data": "{imageBase64}"
+      }
+    },
+    "maxImages": 3
+  }
 }
